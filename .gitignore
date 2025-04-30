@@ -76,3 +76,7 @@ node_modules/
 build/
 dist/
 *.class
+
+#ignore environment folder
+bitcoin_env/
+.ipynb_checkpoints/
