@@ -1,0 +1,78 @@
+# Compiled object files
+*.o
+*.lo
+*.la
+*.al
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Bitcoin build directories
+/build/
+/depends/
+
+# Wallet files
+wallet.dat
+wallets/
+
+# Logs and temporary files
+*.log
+*.pid
+*.lock
+*.tmp
+
+# Test binaries and outputs
+/test/test_bitcoin
+/test/test_bitcoin-qt
+
+# Qt Creator specific files
+*.pro.user
+*.qmake.stash
+
+# macOS specific files
+.DS_Store
+
+# Node modules (if applicable)
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Other
+*.swp
+*.swo
+*.orig
+
+# Ignore the .env file (often used for storing environment variables)
+.env
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore IDE-specific files (VS Code, etc.)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore build files or compiled code
+build/
+dist/
+*.class
